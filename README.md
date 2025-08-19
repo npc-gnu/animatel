@@ -15,6 +15,10 @@ int main(){
 	return 0;
 }
 ```
+### Compiling/using
+```bash
+chmod +x scompile && ./scompile
+```
 ### Animate just one letter
 ```cpp
 #include <iostream>
@@ -26,7 +30,8 @@ int main(){
 		cout << "Completed." << endl;
 }
 ```
-
+### Compiling/using
+chmod +x compile && ./compile
 ## LICENSE 
 Softwares Custom Pi License Version 1(SC-Pi-Lv1)
 You can use and re-license this function with following licenses:
