@@ -1,18 +1,9 @@
 #ifndef SPINNER_HPP
 #define SPINNER_HPP
-#include <chrono>
 #include <thread>
+#include <chrono>
 #include <iostream>
+#include <atomic>
 #include <vector>
-class Spinner {
-private:
-    std::vector<char> frames;
-    int index;
-    int delay_ms;
-public:
-    Spinner(int delay = 100); // milisaniye cinsinden
-    void next();
-    void start(int iterations = 20); // kaç defa dönecek
-};
+void animatel(std::atomic<bool>& running, int delay_ms = 100);
 #endif
-
