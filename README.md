@@ -15,7 +15,7 @@ int main(){
 	return 0;
 }
 ```
-### Compiling/using
+#### Compiling/using
 ```bash
 chmod +x scompile && ./scompile
 ```
@@ -30,8 +30,10 @@ int main(){
 		cout << "Completed." << endl;
 }
 ```
-### Compiling/using
+#### Compiling/using
+```bash
 chmod +x compile && ./compile
+```
 ## LICENSE 
 Softwares Custom Pi License Version 1(SC-Pi-Lv1)
 You can use and re-license this function with following licenses:
