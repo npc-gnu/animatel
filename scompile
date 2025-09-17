@@ -1,3 +1,3 @@
 #!/bin/bash
-g++ -o stestanimatel sanimatel.cpp sanimatel.hpp
+g++ -o stestanimatel sanimatel.cpp stestanimatel.cpp
 ./stestanimatel
